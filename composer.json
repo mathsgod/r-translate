@@ -1,0 +1,15 @@
+{
+    "name": "mathsgod/translate",
+    "description": "Using google translate to translate word",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^7.1"
+    },
+    "authors": [
+        {
+            "name": "Raymond Chong",
+            "email": "mathsgod@yahoo.com"
+        }
+    ],
+    "require": {}
+}
