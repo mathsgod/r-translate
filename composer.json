@@ -16,5 +16,6 @@
             "email": "mathsgod@yahoo.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "version": "1.0.1"
 }

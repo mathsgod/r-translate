@@ -11,9 +11,14 @@ use R\Translate;
 
 $t = new Translate;
 
-//$str="HOSTLINK 的發展項目多元化，務求令我們每一位客戶都可以享用高質素的服務。其中重點包括在現有客戶的系統上不斷更新，我們深信科技的發展，是一日千里，而HOSTLINK的服務也是同樣作一個目標，這也是我們遠勝對手的原因。";
+$str=<<<EOT
+<li>數據中心選擇：多達五個數據中心選擇，遍布香港九龍新界，恆溫操控環境，FM200氣體滅火系統和預作用式灑水系統</li>
+<li>維修和保養：7x24小時緊急技術支援熱線</li>
+<li>服務質素：特快交付服務，專人跟進處理</li>
+EOT;
 
-echo $t->translate("Hello","en","zh-TW");
+
+echo $t->translate($str,"auto","en");
 
 //print_r($t->translate($str,"auto","en"));
 //print_r($t->exec(,"zh-TW","en"));

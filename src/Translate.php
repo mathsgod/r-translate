@@ -7,6 +7,12 @@ class Translate
     public function translate($text, $from, $to)
     {
 
+        //replace \n to space
+        $text=str_replace("\n"," ",$text);
+
+        //remove \r
+        $text=str_replace("\r","",$text);
+
         if (strrpos($text, "。") === false) {
 
             return $this->exec($text, $from, $to);
