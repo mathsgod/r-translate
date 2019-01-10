@@ -1,5 +1,5 @@
 {
-    "name": "mathsgod/translate",
+    "name": "mathsgod/r-translate",
     "description": "Using google translate to translate word",
     "type": "library",
     "autoload": {
